@@ -12,7 +12,7 @@ body, html {
 body {
   font-size: 1.1em;
   font-family: 'Lato', sans-serif;
-  background-image: url("/kestrak/images/stars.jpg");
+  background-image: url("../images/stars.jpg");
   background-repeat: repeat-y;
   background-position: center center;
   background-size: 100% 100%; }
@@ -34,7 +34,7 @@ body {
         width: 100%; }
 
 .outbox.header {
-  background-image: url("/kestrak/images/background_1.jpg"); }
+  background-image: url("../images/background_1.jpg"); }
   .outbox.header .inbox {
     padding-top: 12%;
     padding-bottom: 12%; }
@@ -62,7 +62,7 @@ body {
             width: 100%;
             background-color: #ED1C24;
             transition: background-color .4s;
-            background-image: url("/kestrak/images/search_button_2.png");
+            background-image: url("../images/search_button_2.png");
             background-repeat: no-repeat;
             background-size: auto 90%;
             background-position: center; }
@@ -76,7 +76,7 @@ body {
         text-align: center;
         background-color: rgba(0, 0, 0, 0.5); }
     .outbox.header .inbox .arrow {
-      background-image: url("/kestrak/images/arrow.png");
+      background-image: url("../images/arrow.png");
       background-repeat: no-repeat;
       background-size: auto 50px;
       background-position: center center;
@@ -87,7 +87,7 @@ body {
       width: 100%;
       height: 70px; }
 .outbox.result {
-  background-image: url("/kestrak/images/background_2.jpg");
+  background-image: url("../images/background_2.jpg");
   padding-top: 3%; }
   .outbox.result:before {
     background-color: rgba(0, 0, 0, 0.4);

@@ -5,8 +5,8 @@
     //die(phpinfo());
   //Configuration
   $access = "CCEB25A7F6614C23";
-  $userid = "Username";
-  $passwd = "Password";
+  $userid = "saescapa";
+  $passwd = "Kestrak123";
   $wsdl = "wsdl/Track.wsdl";
   $operation = "ProcessTrack";
   $endpointurl = 'https://onlinetools.ups.com/ups.app/xml/Track'; //https://onlinetools.ups.com/ups.app/xml/Track or https://wwwcie.ups.com/webservices/Track
@@ -72,10 +72,8 @@
   }
   catch(Exception $ex)
   {
-	  print_r($ex);
-/*
+	  /* print_r($ex); */
     header('Content-type: text/xml');
     echo "<xml>Error</xml>";
-*/
   }
 ?>
